@@ -36,7 +36,7 @@ form {
 label {
   display: inline-block;
   width: 80px;
-  color: rgb(236, 240, 239);
+  color: black;
   /* ラベルの文字色を緑色に設定 */
   font-size: 20px;
   font-weight: bold;
