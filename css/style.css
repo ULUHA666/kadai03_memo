@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+/* 以下から */
+body {
+  background-image: url('/img/okaimono.jpg');
+  /* 背景画像のパスを指定 */
+  background-repeat: no-repeat;
+  /* 画像を繰り返し表示しない */
+  background-position: center center;
+  /* 画像を水平方向・垂直方向ともに中央に配置する */
+  background-size: 90%; /* 背景画像を要素全体の90%にフィットさせる */
+}
+
+
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+
+}
+
+
+.logo {
+  margin-top: 20px;
+  /* 画像との間に20pxのマージンを追加 */
+}
+
+
+
+form {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+label {
+  display: inline-block;
+  width: 80px;
+  color: rgb(236, 240, 239);
+  /* ラベルの文字色を緑色に設定 */
+  font-size: 20px;
+  font-weight: bold;
+}
+
+input[type="date"],
+input[type="text"],
+input[type="number"] {
+  width: 200px;
+  margin-bottom: 10px;
+
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #07ec13;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f623da;
+
+}
